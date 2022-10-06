@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   <link rel="stylesheet" href="./style/normalize.css">
-  <link rel="stylesheet" href="./style/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style/swiper-bundle.min.css">
   <link rel="stylesheet" href="./style/style.css">
   <title>Portfolio</title>
 </head>
@@ -516,11 +516,10 @@
       <h2 class="section__title">Portfolio</h2>
       <span class="section__subtitle">Most recent work</span>
 
-      <div class="portfolio__container container">
-        <div>
-
+      <div class="portfolio__container container swiper">
+        <div class="swiper-wrapper">
           <!------------------------- PORTFOLIO 1-------------------->
-          <div class="portfolio__content grid">
+          <div class="portfolio__content grid swiper-slide">
             <img src="./assets/img/botanica.JPG" alt="Картинка с проектом" class="portfolio__img">
             <div class="portfolio__text">
               <h3 class="portfolio__title">Название проекта</h3>
@@ -533,8 +532,8 @@
               </a>
             </div>
           </div>
-           <!------------------------- PORTFOLIO 2-------------------->
-           <div class="portfolio__content grid">
+          <!------------------------- PORTFOLIO 2-------------------->
+          <div class="portfolio__content grid swiper-slide">
             <img src="./assets/img/FTML.JPG" alt="Картинка с проектом" class="portfolio__img">
             <div class="portfolio__text">
               <h3 class="portfolio__title">Название проекта</h3>
@@ -547,8 +546,8 @@
               </a>
             </div>
           </div>
-           <!------------------------- PORTFOLIO 3-------------------->
-           <div class="portfolio__content grid">
+          <!------------------------- PORTFOLIO 3-------------------->
+          <div class="portfolio__content grid swiper-slide">
             <img src="./assets/img/Neoflex-test.JPG" alt="Картинка с проектом" class="portfolio__img">
             <div class="portfolio__text">
               <h3 class="portfolio__title">Название проекта</h3>
@@ -561,8 +560,8 @@
               </a>
             </div>
           </div>
-           <!------------------------- PORTFOLIO 4-------------------->
-           <div class="portfolio__content grid">
+          <!------------------------- PORTFOLIO 4-------------------->
+          <div class="portfolio__content grid swiper-slide">
             <img src="./assets/img/neo-project.png" alt="Картинка с проектом" class="portfolio__img">
             <div class="portfolio__text">
               <h3 class="portfolio__title">Название проекта</h3>
@@ -575,8 +574,8 @@
               </a>
             </div>
           </div>
-           <!------------------------- PORTFOLIO 5-------------------->
-           <div class="portfolio__content grid">
+          <!------------------------- PORTFOLIO 5-------------------->
+          <div class="portfolio__content grid swiper-slide">
             <img src="./assets/img/project_itmo.JPG" alt="Картинка с проектом" class="portfolio__img">
             <div class="portfolio__text">
               <h3 class="portfolio__title">Название проекта</h3>
@@ -589,8 +588,8 @@
               </a>
             </div>
           </div>
-           <!------------------------- PORTFOLIO 6-------------------->
-           <div class="portfolio__content grid">
+          <!------------------------- PORTFOLIO 6-------------------->
+          <div class="portfolio__content grid swiper-slide">
             <img src="./assets/img/react-todo.JPG" alt="Картинка с проектом" class="portfolio__img">
             <div class="portfolio__text">
               <h3 class="portfolio__title">Название проекта</h3>
@@ -604,8 +603,15 @@
             </div>
           </div>
         </div>
-      </div>
 
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-double-right swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-double-left swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
 
     <!--==================== PROJECT IN MIND ====================-->
@@ -633,11 +639,10 @@
 
 
   <!--==================== SWIPER JS ====================-->
-  <script src=""></script>
+  <script src="js/swiper-bundle.min.js"></script>
 
   <!--==================== MAIN JS ====================-->
-  <script src="./js/index.js"></script>
-  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="/js/index.js"></script>
 </body>
 
 </html>
