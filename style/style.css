@@ -55,7 +55,6 @@
 	--z-fixed: 100;
 	--z-modal: 1000;
 }
-
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
 	:root {
@@ -68,7 +67,6 @@
 		--smaller-font-size: 0.813rem;
 	}
 }
-
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
 	/* HSL color mode */
@@ -590,6 +588,7 @@ img {
   text-align: center;
   color: var(--text-color-light);
   margin-top: var(--mb-3);
+  grid-column-start: 2;
 }
 .footer__title,
 .footer__subtitle,
@@ -620,8 +619,6 @@ img {
 .show-scroll {
 	bottom: 5rem;
 }
-/*========== SCROLL BAR ==========*/
-
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px) {
