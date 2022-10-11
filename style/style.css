@@ -405,22 +405,22 @@ img {
 	background-color: var(--first-color);
 }
 .skills__html {
-	width: 90%;
+	width: 92%;
 }
 .skills__css {
-	width: 80%;
+	width: 85%;
 }
 .skills__js {
-	width: 70%;
+	width: 55%;
 }
 .skills__react {
-	width: 90%;
+	width: 25%;
 }
 .skills__figma {
-	width: 30%;
+	width: 65%;
 }
 .skills__photoshop {
-	width: 20%;
+	width: 45%;
 }
 .skills__close .skills__list {
 	height: 0;
