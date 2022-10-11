@@ -747,14 +747,12 @@ img {
 	.qualification__sections {
 		grid-template-columns: 0.5fr;
 	}
-
 	.portfolio__img {
 		width: 320px;
 	}
 	.portfolio__content {
 		align-items: center;
 	}
-
 	.footer__container {
 		grid-template-columns: repeat(3, 1fr);
 	}
@@ -768,6 +766,9 @@ img {
 	.footer__socials {
 		justify-self: flex-end;
 	}
+  .footer__copy{
+    margin-top: 4.5rem;
+  }
 }
 /* For large devices */
 @media screen and (min-width: 1024px){
