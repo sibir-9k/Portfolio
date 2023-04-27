@@ -405,22 +405,34 @@ img {
 	background-color: var(--first-color);
 }
 .skills__html {
-	width: 92%;
+	width: 95%;
 }
 .skills__css {
-	width: 85%;
+	width: 90%;
 }
 .skills__js {
-	width: 55%;
+	width: 60%;
 }
 .skills__react {
-	width: 25%;
+	width: 40%;
+}
+.skills__redux {
+	width: 30%;
+}
+.skills__webpack {
+	width: 30%;
+}
+.skills__vite {
+	width: 20%;
 }
 .skills__figma {
-	width: 65%;
+	width: 75%;
 }
 .skills__photoshop {
 	width: 45%;
+}
+.skills__adaptive {
+	width: 80%;
 }
 .skills__close .skills__list {
 	height: 0;
