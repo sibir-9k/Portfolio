@@ -1,5 +1,5 @@
 /*==================== GOOGLE FONTS ====================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -24,7 +24,7 @@
 	--scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
 	/*========== Font and typography ==========*/
-	--body-font: "Poppins", sans-serif;
+	--body-font: 'Poppins', sans-serif;
 
 	/* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
 	--big-font-size: 2rem;
@@ -408,19 +408,22 @@ img {
 	width: 95%;
 }
 .skills__css {
-	width: 90%;
+	width: 95%;
 }
 .skills__js {
-	width: 60%;
+	width: 75%;
 }
 .skills__react {
-	width: 40%;
+	width: 45%;
 }
 .skills__redux {
 	width: 30%;
 }
 .skills__webpack {
 	width: 30%;
+}
+.skills__vue {
+	width: 25%;
 }
 .skills__vite {
 	width: 20%;
@@ -533,7 +536,7 @@ img {
 }
 .swiper-button-prev::after,
 .swiper-button-next::after {
-	content: "";
+	content: '';
 }
 .swiper-portfolio-icon {
 	font-size: 2.5rem;
@@ -583,19 +586,19 @@ img {
 .footer__links {
 	display: flex;
 	flex-direction: column;
-  align-items: center;
+	align-items: center;
 	row-gap: 1.5rem;
 }
 .footer__link:hover {
 	color: var(--first-color-lighter);
 }
 .footer__socials {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 	font-size: 2rem;
-  /* font-size: 40px; */
+	/* font-size: 40px; */
 }
-.footer__socials a{
+.footer__socials a {
 	margin-right: var(--mb-1-5);
 }
 .footer__socials:hover {
@@ -795,7 +798,7 @@ img {
 	.home__social {
 		transform: translateX(-6rem);
 	}
-	.home__social a{
+	.home__social a {
 		font-size: 2rem;
 	}
 	.portfolio__content {
